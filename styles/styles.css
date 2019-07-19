@@ -1,0 +1,178 @@
+
+/*-------------- Navbar --------------*/
+li {
+    font-weight: bold;
+}
+
+.transparent {
+    background: rgba(0,0,0, 0.6);
+}
+
+.divide {
+    font-size: 14px;
+    margin: 8px 10px;
+    color: #FFF;
+}
+
+.navbar-dark .nav-item .nav-link:link {
+    color: #FFF;
+}
+
+.navbar-dark .nav-item .nav-link:visited {
+    color: #FFF;
+}
+
+.navbar-dark .nav-item .nav-link:hover {
+    color:#1ED760;
+}
+
+.navbar-dark .nav-item .nav-link:focus {
+    color: #1ED760;
+}
+
+.navbar-dark .nav-item .nav-link:active {
+    color:#1DB954;
+}
+
+/*-------------- Cover --------------*/
+html, body, .cover {
+    height:100%;
+}
+
+body {
+    background: url("../images/capa.png"),
+                url("../images/noise.png"),
+                linear-gradient(50deg, #FF4169, #7C26F8);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 90px;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+}
+
+.cover {
+    display: table;
+    width: 100%;
+}
+
+.cover-text {
+    text-align: center;
+    color: #FFF;
+    display: table-cell;
+    vertical-align:middle;
+}
+
+/*-------------- Buttons --------------*/
+.btn-custom {
+    color:white;
+    border-radius: 500px;
+    padding: 10px 50px;
+    margin: 10px 15px;
+    text-transform: uppercase;
+    transition: background 0.5s, color 0.5s;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.btn-purple {
+    background: #7C25F8;
+}
+
+.btn-purple:hover {
+    background: #6207E3;
+    color: #FFF;
+}
+
+.btn-white {
+    border: 2px solid #FFF;
+}
+
+.btn-white:hover {
+    background: #FFF;
+    color: #000;
+}
+
+/*-------------- Content --------------*/
+p {
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3 {
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+#services{
+    background:#FFF;
+    padding: 20px 0px;
+}
+
+#services h2, #services h3 {
+    color:#7C25F8;
+}
+
+.images {
+    width: 100%;
+}
+
+.albums {
+    padding: 10px 0px;
+}
+
+#resources {
+    padding: 20px 20px;
+    color: #FFF;
+}
+
+#resources h3 {
+    color: #9BF0E1;
+}
+.rotate {
+    transform: rotate(30deg);
+    padding-left: 50px;
+}
+
+/*-------------- Footer --------------*/
+footer {
+    background: #000;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+#footer h4 {
+    color: #919496;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+#footer .nav-item .nav-link:link {
+    color: #FFF;
+}
+
+#footer .nav-item .nav-link:visited {
+    color: #FFF;
+}
+
+#footer .nav-item .nav-link:hover {
+    color:#9BF0E1;
+}
+
+#footer .nav-item .nav-link:focus {
+    color: #9BF0E1;
+}
+
+#footer .nav-item .nav-link:active {
+    color:#1DB954;
+}
